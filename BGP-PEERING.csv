@@ -1,3 +1,0 @@
-﻿hostname,BGP type,Local  AS,Local Peer IP,Remote AS,Remote_peer_IP,Password,address fammilies,vrf,inbound route-maps,outbound route-maps
-R1,internal,65001,1.1.1.1,65001,2.2.2.2,lseg,ipv4 unicast,default,none,none
-R2,internal,65001,2.2.2.2,65001,1.1.1.1,lseg,ipv4 unicast,default,none,none
