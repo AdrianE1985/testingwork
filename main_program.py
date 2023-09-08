@@ -38,7 +38,7 @@ else:
 print(tbe)
 
 def check_hostname(node):
-    data = pd.read_csv(r"C:\Users\adria\Desktop\work automation test\CORE.csv", header=0)
+    data = pd.read_csv(r"CORE.csv", header=0)
     print(data)
     for index in data.index:
         host_value = data.loc[index]['A_host']
