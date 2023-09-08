@@ -1,0 +1,6 @@
+﻿A_host,A_vendor,tip_interfata,A_interface,A_int_address,A_int_speed,A_int_MTU,A_int_BFD,A_Enable,New_A_host,New_A_Vendor,New_A_int_type,New_A_interface,New_A_int_address,New_A_int_speed,New_A_int_MTU,New_A_int_BFD,Z_host,Z_vendor,Z_Int_type,Z_interface,Z_int_address,Z_int_speed,Z_int_MTU,Z_int_BFD,Z_Enable,New_Z_host,New_Z_Vendor,New_Z_int_type,New_Z_interface,New_Z_int_address,New_Z_int_speed,New_Z_int_MTU,New_Z_int_BFD
+R1,Cisco,MGMT,Gi1,192.168.100.151,100,1500,No,Yes,,,,,,,,,S1,Cisco,Layer2,fa1/0,VLAN100,100,1500,no,Yes,,,,,,,,
+R1,Cisco,NETWORK,Gi3,10.10.10.1,1000,1500,No,Yes,,,,,,,,,R2,Cisco,10.10.10.2/30,Gi3,10.10.10.2/30,1000,1500,no,Yes,,,,,,,,
+R1,Cisco,LOOPBACK,Loopback1,1.1.1.1,,1500,No,Yes,,,,,,,,,,,,,,,,,Yes,,,,,,,,
+R2,Cisco,NETWORK,Loopback2,2.2.2.2,,1500,No,Yes,,,,,,,,,,,,,,,,,Yes,,,,,,,,
+S1,Cisco,MGMT,Fa0/0,192.168.100.251,100,1500,No,Yes,,,,,,,,,,,,,,,,,Yes,,,,,,,,
