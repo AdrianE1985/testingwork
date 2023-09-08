@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build configuration') {
             steps{
-                sh 'python3 main_program.py'
+                bat 'python3 main_program.py'
             }
         }
     }
