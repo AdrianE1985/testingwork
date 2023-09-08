@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build configuration') {
             steps{
-                bat 'python main_program.py'
+                bat 'python3 C:\Users\adria\Desktop\WORK_AUT_TEST\main_program.py'
             }
         }
     }
