@@ -37,21 +37,21 @@ else:
 
 print(tbe)
 
-def check_hostname(node):
-    data = pd.read_csv(r"CORE.csv", header=0)
-    print(data)
-    for index in data.index:
-        host_value = data.loc[index]['A_host']
-        interface_type = data.loc[index]['tip_interfata']
-        adresa_ip = data.loc[index]['A_int_address']
-        if host_value == node and interface_type=="MGMT":
-            print("Your host was found in the repos")
-            m = manager.connect(host=adresa_ip, port=830, username="adrian", password="adrian")
-            for capacitati in m.server_capabilities:
-                print(capacitati)
-
-check_hostname(router)
-exit()
+#def check_hostname(node):
+#    data = pd.read_csv(r"CORE.csv", header=0)
+#    print(data)
+#    for index in data.index:
+#        host_value = data.loc[index]['A_host']
+#        interface_type = data.loc[index]['tip_interfata']
+#        adresa_ip = data.loc[index]['A_int_address']
+#        if host_value == node and interface_type=="MGMT":
+#            print("Your host was found in the repos")
+#            m = manager.connect(host=adresa_ip, port=830, username="adrian", password="adrian")
+#            for capacitati in m.server_capabilities:
+#                print(capacitati)
+#
+#check_hostname(router)
+#
 #    #print(data)
 #    def new_link_config():
 #        data = pd.read_csv(r"C:\Users\adria\Desktop\work automation test\CORE.csv", header=0)
