@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build configuration') {
             steps{
-                sh 'https://github.com/AdrianE1985/testingwork.git/main_program.py'
+                sh 'python3 https://github.com/AdrianE1985/testingwork.git/main_program.py'
             }
         }
     }
