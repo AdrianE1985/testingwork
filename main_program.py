@@ -51,7 +51,7 @@ def check_hostname(node):
                 print(capacitati)
 
 check_hostname(router)
-
+exit()
 #    #print(data)
 #    def new_link_config():
 #        data = pd.read_csv(r"C:\Users\adria\Desktop\work automation test\CORE.csv", header=0)
