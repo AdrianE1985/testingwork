@@ -8,7 +8,7 @@
 #
 #tbe=[]
 #available_choises=["Abort","build_new_interface","build_new_ospf_neighbor","build_new_bgp_neighbor","update_prefix_list","update_route_map"]
-p = subprocess.Popen(cmd, stdout=subprocess.PIPE,
+p = subprocess.Popen(sh, stdout=subprocess.PIPE,
                      stderr=subprocess.PIPE, shell=True)
 exit_code = p.wait() 
 print("!!!!!!JENKINS WORKS!!!!!", , p.stdout.read().decode())
