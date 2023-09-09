@@ -8,7 +8,9 @@
 #
 #tbe=[]
 #available_choises=["Abort","build_new_interface","build_new_ospf_neighbor","build_new_bgp_neighbor","update_prefix_list","update_route_map"]
-print("!!!!!!JENKINS WORKS!!!!!")
+p = subprocess.Popen(cmd, stdout=subprocess.PIPE,
+                     stderr=subprocess.PIPE, shell=True)
+print("!!!!!!JENKINS WORKS!!!!!", , p.stdout.read().decode())
 exit()
 #router=input()
 #
