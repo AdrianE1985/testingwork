@@ -11,9 +11,9 @@
 p = subprocess.Popen(sh, stdout=subprocess.PIPE,
                      stderr=subprocess.PIPE, shell=True)
 exit_code = p.wait() 
-print("!!!!!!JENKINS WORKS!!!!!", , p.stdout.read().decode())
+print("!!!!!!JENKINS WORKS!!!!!", p.stdout.read().decode())
 print("jenkins has errors", p.stderr.read().decode())
-sys.exit(exit_code)
+sys.exit(exit())
 #router=input()
 #
 #print("Hello user. What will you want to build or edit today ?")
