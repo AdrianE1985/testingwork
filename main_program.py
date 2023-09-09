@@ -6,9 +6,9 @@
 #import csv
 #from ncclient import manager
 
-tbe=[]
-available_choises=["Abort","build_new_interface","build_new_ospf_neighbor","build_new_bgp_neighbor","update_prefix_list","update_route_map"]
-print("JENKINS WORKS !!!!!! ")
+#tbe=[]
+#available_choises=["Abort","build_new_interface","build_new_ospf_neighbor","build_new_bgp_neighbor","update_prefix_list","update_route_map"]
+print("HELLO WORLD")
 #router=input()
 
 print("Hello user. What will you want to build or edit today ?")
