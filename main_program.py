@@ -1,13 +1,13 @@
-import pandas as pd
-import openpyxl
-from jinja2 import Template, Environment, FileSystemLoader
-import os
-import numpy as np
-import csv
-from ncclient import manager
-
-tbe=[]
-available_choises=["Abort","build_new_interface","build_new_ospf_neighbor","build_new_bgp_neighbor","update_prefix_list","update_route_map"]
+#import pandas as pd
+#import openpyxl
+#from jinja2 import Template, Environment, FileSystemLoader
+#import os
+#import numpy as np
+#import csv
+#from ncclient import manager
+#
+#tbe=[]
+#available_choises=["Abort","build_new_interface","build_new_ospf_neighbor","build_new_bgp_neighbor","update_prefix_list","update_route_map"]
 print("!!!!!!JENKINS WORKS!!!!!")
 #router=input()
 #
