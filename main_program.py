@@ -5,29 +5,21 @@
 #import numpy as np
 #import csv
 #from ncclient import manager
-#
-#tbe=[]
-#available_choises=["Abort","build_new_interface","build_new_ospf_neighbor","build_new_bgp_neighbor","update_prefix_list","update_route_map"]
-import subprocess
 
-
-p = subprocess.Popen(sh, stdout=subprocess.PIPE,
-                     stderr=subprocess.PIPE, shell=True)
-exit_code = p.wait() 
-print("!!!!!!JENKINS WORKS!!!!!", p.stdout.read().decode())
-print("jenkins has errors", p.stderr.read().decode())
-sys.exit(exit_code)
+tbe=[]
+available_choises=["Abort","build_new_interface","build_new_ospf_neighbor","build_new_bgp_neighbor","update_prefix_list","update_route_map"]
+print("JENKINS WORKS !!!!!! ")
 #router=input()
-#
-#print("Hello user. What will you want to build or edit today ?")
-##        0.Abort  
-##        1.build new interface 
-##        2.build new ospf neighbors 
-##        3.build new bgp neighbors 
-##        4.update prefix-list 
-##        5.update route-map 
-##        99.exit choise list")
-#
+
+print("Hello user. What will you want to build or edit today ?")
+#        0.Abort  
+#        1.build new interface 
+#        2.build new ospf neighbors 
+#        3.build new bgp neighbors 
+#        4.update prefix-list 
+#        5.update route-map 
+#        99.exit choise list")
+
 #user_choise=int(input())
 #tbe.append(available_choises[user_choise])
 #while user_choise !=0 and user_choise <= len(available_choises):
